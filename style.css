@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    margin: 0;
+    position:relative;
+    background: #f5fcff bottom center url("./img/pngwing.png") no-repeat;
+}
+.sun {
+    height: 250px;
+    width: 250px;
+    top: 20px;
+    position: absolute;
+    right: 100px;
+    background: url("./img/sun.png");
+}
+.grass {
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: bottom / auto 150px url(./img/grass.png);
+
+}
+.cloud {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top:50px;
+    background: -50% / auto 200px url("./img/cloud.png");
+    left: 0;
+}
+.deer {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left:50%;
+    margin: 0 0 0 -250px;
+    background:  url("./img/deer.png");
+    bottom: 0;
+
+}
